@@ -1,0 +1,21 @@
+{
+  "name": "proxy-cors-anywhere",
+  "version": "1.0.0",
+  "description": null,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "sucrase-node src/index.js"
+  },
+  "dependencies": {
+    "cors-anywhere": "0.4.1"
+  },
+  "devDependencies": {
+    "sucrase": "3.10.1"
+  },
+  "keywords": [
+    "proxy",
+    "cors",
+    "node",
+    "server"
+  ]
+}
